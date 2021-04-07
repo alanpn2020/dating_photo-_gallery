@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "137697690560",
+    "firebase_url": "https://chat-teste-bd769.firebaseio.com",
+    "project_id": "chat-teste-bd769",
+    "storage_bucket": "chat-teste-bd769.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137697690560:android:f1318e003c6bd5fd79fe25",
+        "android_client_info": {
+          "package_name": "com.alanpn.album_photo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137697690560-9dibqup0htnna010bb5djaumabmfvqp0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCetK3UNXcA_WcWjPiuh9gNufJbeJqNBhQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137697690560-9dibqup0htnna010bb5djaumabmfvqp0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
