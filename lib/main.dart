@@ -34,6 +34,30 @@ class HomeWidget extends StatelessWidget {
               title: Text("Alan & Karoline"),
               centerTitle: true,
             ),
+            drawer: Drawer(
+              child: ListView(
+                children: <Widget>[
+                  DrawerHeader(
+                    decoration: BoxDecoration(
+
+                    ),
+                  ),
+                  ListTile(
+                    title: Text('Item1',style: TextStyle(color: Colors.yellow),  ),
+                    tileColor: Colors.red,
+                   onTap: (){}
+                  ), 
+                  ListTile(
+                    title: Text('Item1'),
+                   onTap: (){}
+                  ),
+                  ListTile(
+                    title: Text('Item1'),
+                   onTap: (){}
+                  ),
+                ]
+              ) ,),
+
             body: StreamBuilder(
                 stream:
                     FirebaseFirestore.instance.collection('mensagens').snapshots(),
@@ -46,7 +70,7 @@ class HomeWidget extends StatelessWidget {
                           crossAxisCount: 2,
                           crossAxisSpacing: 0,
                           mainAxisSpacing: 12,
-                          itemCount: imageList.length,
+                          itemCount: snapshot.data.docs.length,
                           itemBuilder: (context, index) {
                             return Container(
                               decoration: BoxDecoration(
